@@ -7,10 +7,11 @@ import java.util.List;
 
 @Getter
 @Setter
-public class Movies {
+public class Movies  {
     private String id;
     private String name;
     private String genre;
+    private String director;
     private String description;
     private int releaseDate;
     private double imdbRating;
